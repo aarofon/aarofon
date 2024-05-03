@@ -10,7 +10,8 @@
 aarofon/aarofon is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
- A((Consulta del Cliente)) -- Sí --> B((Atención por parte del Vendedor));
+graph LR;
+    A((Consulta del Cliente)) -- Sí --> B((Atención por parte del Vendedor));
     A -- No --> X((Fin del Proceso));
     B -- Sí --> C((Generación de Certificado de Pandero));
     C -- Sí --> D((Pago de Cuota de Inscripción));
@@ -22,3 +23,4 @@ You can click the Preview link to take a look at your changes.
     G -- Sí --> H((Pago de Cuota de Adjudicación));
     G -- No --> X;
     H --> I((Entrega del Auto));
+    
